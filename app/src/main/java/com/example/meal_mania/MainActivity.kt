@@ -1,6 +1,5 @@
 package com.example.meal_mania
 
-//Video Demo Link: https://drive.google.com/drive/folders/1cbT8fa_riXQMGpSW9K0kFt0L7SIfXuKN?usp=sharing
 
 import android.annotation.SuppressLint
 import android.content.Intent
