@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="411dp"
+    android:layout_height="735dp"
+    android:orientation="vertical"
+    android:background="@drawable/main3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables"
+        android:paddingTop="10dp"
+        >
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/addMealToDB_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="🥗 Add Meals to DB"
+            android:backgroundTint="@color/gold"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/SearchMealsByIngredients_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="🌮 search meals by ingrediant"
+            android:textColor="@color/gold"
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:id="@+id/SearchForMeals_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/gold"
+            android:text="🍳 search from DB"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:id="@+id/SearchByName_Button"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🥯 search meals from WebService"
+            android:textColor="@color/gold"
+            android:textStyle="bold">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
